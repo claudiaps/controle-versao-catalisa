@@ -1,24 +1,24 @@
 const frutas = [
     {
         nome: 'banana',
-        eCitrica: false,
+        citrica: false,
     },
     {
         nome: 'laranja',
-        eCitrica: true,
+        citrica: true,
     },
     {
         nome: 'maça',
-        eCitrica: false,
+        citrica: false,
     },
     {
         nome: 'tangerina',
-        eCitrica: true,
+        citrica: true,
     }
 ];
 
 const frutasCitricas = frutas.filter(fruta => {
-    return fruta.eCitrica === true;
+    return fruta.citrica === true;
 });
 
 console.log({ frutasCitricas });
